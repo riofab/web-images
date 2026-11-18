@@ -26,7 +26,7 @@ jobs:
           find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" -o -iname "*.svg" \) \
             -printf "%T@ %p\n" | sort -rn | head -n 30 | cut -d' ' -f2- | sed 's|^\./||' | while IFS= read -r file; do
             ENCODED_FILE="${file// /%20}"
-            URL="https://jsdelivr.net{REPO}@main/${ENCODED_FILE}"
+            URL="https://jsdelivr.net/gh/riofab/web-images@main/${ENCODED_FILE}"
             echo "### ${file}" >> LINKS.md
             echo '```markdown' >> LINKS.md
             echo "![](${URL})" >> LINKS.md
