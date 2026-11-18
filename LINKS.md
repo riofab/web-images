@@ -5,6 +5,11 @@
 ![](https://cdn.jsdelivr.net/gh/riofab/web-images@main/202611/xncon2026-11-18190341e.jpg)
 ```
 
+### 202611/xncon2026-11-18190341d1.jpg
+```markdown
+![](https://cdn.jsdelivr.net/gh/riofab/web-images@main/202611/xncon2026-11-18190341d1.jpg)
+```
+
 ### 202611/xncon2026-11-18190341d.jpg
 ```markdown
 ![](https://cdn.jsdelivr.net/gh/riofab/web-images@main/202611/xncon2026-11-18190341d.jpg)
