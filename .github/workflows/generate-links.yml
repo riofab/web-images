@@ -29,7 +29,7 @@ jobs:
             URL="https://jsdelivr.net{REPO}@main/${ENCODED_FILE}"
             echo "### ${file}" >> LINKS.md
             echo '```markdown' >> LINKS.md
-            echo "![画像](\${URL})" >> LINKS.md
+            echo "![画像](${URL})" >> LINKS.md
             echo '```' >> LINKS.md
             echo "" >> LINKS.md
           done
