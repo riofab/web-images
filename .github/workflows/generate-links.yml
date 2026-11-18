@@ -1,6 +1,7 @@
 name: Generate Image Links
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
